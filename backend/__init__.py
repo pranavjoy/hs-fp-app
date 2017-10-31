@@ -1,4 +1,5 @@
 import urllib
+import webbrowser
 def process_user_query(query_string):
     name_list = query_string.split(' ')
     greetings = []
@@ -8,5 +9,5 @@ def process_user_query(query_string):
     return greetings
     return 'No names found'
 
-fun open():
-    return urllib.urlopen('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+webbrowser.open_new(url)
