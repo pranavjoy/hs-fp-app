@@ -1,7 +1,7 @@
-def process_user_query(query_string):
+input(query_string):
     action = str(query_string)
     if action = "walk"
-        def process_user_query(query_string):
+        input(query_string):
             direction = str(query_string)
             if direction = "w"
                 return "Story1"
